@@ -105,3 +105,8 @@ body {
     min-width: 132px;
     background-color: #E8FEFE;
  }
+
+ #profile-pic {
+     border-radius: 50%;
+     border: 2px solid darkgrey;
+ }
