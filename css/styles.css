@@ -4,7 +4,7 @@ body {
     /*background-image: url('images/boris-flood.jpg');
     background-repeat: no-repeat;
     background-size: cover;*/
-    font-family: 'Anonymous Pro', ;
+    /*font-family: 'Anonymous Pro', ;*/
     font-family: 'Share Tech Mono', ;
     /*font-family: 'Special Elite', cursive;;*/
 
@@ -30,15 +30,21 @@ a {
     border-radius: 50%;
     border: lightgrey solid 3px;
     margin-bottom: 30px;
+    margin-top: 30px;
+    /*position: absolute;*/
+
 
 }
 
-/*#profile-div {
-    background: url(images/old_map_@2X.png);
-}*/
+#profile-div {
+    background-image: url('images/bladerunner.jpg');
+    background-position: 10% 50%;
+    width: 100%;
+}
 
 #tagline {
     margin-bottom: 30px;
+    font-family: 'Share Tech Mono', ;
 }
 
 
@@ -75,12 +81,9 @@ img {
     font-family: 'Share Tech Mono', ;
 
 
-    /*background-image: url('http://i.imgur.com/iZ9wG4n.jpg');
-    background-image: url('http://www.mikechurch.com/wp-content/uploads/2012/11/blade-runner-eye.jpg');
-    background-position: center;
-    background-repeat: no-repeat;*/
-    /*color: #B28F00;*/
+
     color: black;
+
  }
 
  #navbar {
