@@ -8,13 +8,48 @@ body {
     font-family: 'Share Tech Mono', ;
     /*font-family: 'Special Elite', cursive;;*/
 
-  background: -webkit-linear-gradient(90deg, #EFEFBB 10%, #D4D3DD 90%); /* Chrome 10+, Saf5.1+ */
-  background:    -moz-linear-gradient(90deg, #EFEFBB 10%, #D4D3DD 90%); /* FF3.6+ */
-  background:     -ms-linear-gradient(90deg, #EFEFBB 10%, #D4D3DD 90%); /* IE10 */
-  background:      -o-linear-gradient(90deg, #EFEFBB 10%, #D4D3DD 90%); /* Opera 11.10+ */
-  background:         linear-gradient(90deg, #EFEFBB 10%, #D4D3DD 90%); /* W3C */
 
 }
+
+a {
+    /*text-decoration: none;*/
+    color: black;
+
+}
+
+#link-div {
+
+    background-color: lightgrey;
+}
+
+/*a:hover {
+    text-decoration: underline;
+}*/
+
+#profile {
+    border-radius: 50%;
+    border: lightgrey solid 3px;
+    margin-bottom: 30px;
+
+}
+
+/*#profile-div {
+    background: url(images/old_map_@2X.png);
+}*/
+
+#tagline {
+    margin-bottom: 30px;
+}
+
+
+img {
+    max-width: 85%;
+    display: inline-block;
+}
+
+/*#link-div {
+    background-color: green;
+}*/
 
 #log-out-button {
     visibility: hidden;
@@ -104,9 +139,4 @@ body {
     color: black;
     min-width: 132px;
     background-color: #E8FEFE;
- }
-
- #profile-pic {
-     border-radius: 50%;
-     border: 2px solid darkgrey;
  }
